@@ -34,6 +34,8 @@ const NewsCard = ({
     }
   }, [i, activeArticle, elRefs]);
 
+  console.log('active article', activeArticle);
+
   return (
     <Card
       ref={elRefs[i]}
