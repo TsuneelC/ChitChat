@@ -41,7 +41,7 @@ const NewsCard = ({
       ref={elRefs[i]}
       className={classNames(
         classes.card,
-        activeArticle === i ? classes.active : null
+        activeArticle === i ? classes.activeCard : null
       )}
     >
       <CardActionArea herf={url} target='_blank'>
